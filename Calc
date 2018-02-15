@@ -1,0 +1,12 @@
+import java.lang.System;
+import java.util.Scanner;
+
+Public class Calc
+{
+Public static void main(String[] args)
+{
+int a,b;
+Scanner s=new Scanner(System.in);
+System.out.println("enter the nums:");
+a=s.nextInt();
+b=s.nextInt();
