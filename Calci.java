@@ -1,7 +1,7 @@
 import java.lang.System;
 import java.util.Scanner;
 
-public class Calc{
+class Calc{
 public static void main(String[] args)
 {
 int a,b,n;
@@ -14,21 +14,21 @@ System.out.print("Enter\n 1.Addition \n2.Substration \n3.Multiplication \n4.Divi
 n=s.nextInt();
 switch(n)
 {
-	case 1:System.out.println("The result of addition is"+(a+b));
+	case 1:System.out.println("The result of addition is:"+(a+b));
 	       break;
 	case 2:result=(a-b);
 	       System.out.println("sub of 2 num is:"+result);
 	       break;
-	case 3:System.out.println("The result of multiplication is"+(a*b));
+	case 3:System.out.println("The result of multiplication is:"+(a*b));
 	       break;
 	case 4:result=(a/b);
 	       System.out.println("div of 2num is:"+result);
 	       break;
-	case 5:System.out.println("The result of modulo operation is"+(a%b));
+	case 5:System.out.println("The result of modulo operation is:"+(a%b));
 	       break;
 	default:System.out.println("Enter a valid operation");
 }
-sc.close();
+s.close();
 }
 
 }
